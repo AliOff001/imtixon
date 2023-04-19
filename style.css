@@ -1,0 +1,263 @@
+
+.header{
+    /* border:2px solid rgb(20, 185, 20); */
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 27px; */
+     margin: 0 auto; 
+}
+.ul{
+    display:flex;
+    justify-content: space-around;
+    width: 300px;
+    align-items:center;
+
+    
+}
+.btn{
+    width: 161px;
+    height: 52px;
+    margin-top: 10px;
+    background-color: #0082f4;
+    border-radius: 6px;
+    color: #fff;
+    border: 0;
+}
+ul li a:hover{
+   color: #0082F4;
+}
+.btn:hover{
+   background-color:#0082F4;
+   box-shadow: 3px 5px 10px #0082F4; 
+    
+}
+
+
+/* ================== header_main Start======================= */
+.header_main{
+    display: flex;
+    justify-content: space-around;
+}
+.header_text{
+    width: 500px;
+
+  
+    
+ }
+
+ .icon{
+    margin-top: 0px;
+    border: 1px solid #0082F4;
+    border-radius: 10px;
+     width: 160px;
+    height: 52px; 
+    margin-left:20px;
+    margin-bottom: 100px;
+    padding: 10px;
+   
+}
+
+
+.icon:hover{
+    width: 161px;
+    height: 52px;
+    margin-top: 10px;
+    background-color: #0082f4;
+    border-radius: 6px;
+    color: #fff;
+}
+/* ===================== main start==================== */
+.Hero_area{
+    width: 1174px;
+    height: 540px;
+    left: 227px;
+    top: 804px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    gap: 100px;
+}
+/* =============  top bloks   ==================== */
+.top_bloks{
+ display: flex;
+}
+ .top h3{
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48.44px;
+    line-height: 150%;
+    color: #000000;
+} 
+.blok{
+    align-items:center;
+    text-align: center;
+}
+    
+.button0{
+    width: 80px;
+    height: 80px;
+    border : none ;
+    background-color: #fff;  
+}
+.button0:hover{
+  box-shadow: 3px 5px 10px #0082F4;  
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+
+}
+.yozuv{
+    color:#000000;
+}
+
+
+
+
+
+/* ====================== */
+.section_blok{
+    display: flex;
+    gap: 20px;
+    column-gap: 50px;
+}
+.sectoion_left{
+    position: relative;
+    display: flex;
+    width: 420px;
+    height: 250px;
+    border: 2px solid rgb(250, 255, 250);
+ }
+.blue{
+   
+    width: 62px;
+    background: #0082F4;
+
+}
+.white{
+    width: 150px;
+    margin-left: 50px;
+}
+.section_img{
+     position: absolute; 
+     top: 47%;
+     left: 30px;
+}
+.qator{
+    width: 195.26px;
+    height: 105.2px;
+    left: 357.91px;
+    top: 2347px;
+    opacity: 0.7;
+}
+/* ==== */
+.sectoion_righet{
+    position: relative;
+    display: flex;
+    width: 420px;
+    height: 250px;
+    border: 2px solid rgb(243, 248, 243); 
+}
+.blue2{
+    width: 62px;
+    background: #0082F4;
+}
+.white2{
+    width: 150px;
+    margin-left: 50px;  
+}
+.section_img2{
+    position: absolute; 
+     top: 47%;
+     left: 30px; 
+}
+/* ============= */
+.section2 {
+    background: rgb(232, 236, 255);
+    text-align: center;
+    padding: 40px;
+  }
+  .mail {
+    height: 40px;
+    justify-content: center;
+    display: flex;
+  }
+  .mail i {
+    background: #0283f5;
+    color: #fff;
+    width: 40px;
+    line-height: 40px;
+  }
+  .tbox,.btn
+   {
+    border: none;
+    outline: none;
+  }
+  .tbox {
+    width: 0px;
+    
+  }
+  .mail  .tbox,.tbox
+   {
+    width: 260px;
+    padding: 0 10px;
+  }
+  .btn2 {
+    background: #0283f5;
+    color: white;
+    padding: 0 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  /* ============================= */
+   .footer-link {
+    margin: 20px 0;
+  }
+  .footer-link  .container {
+    display: flex;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+  .container  .card1  li,
+  .card2 li,
+  .card3 li,
+  .card4 li {
+    list-style-type: none;
+    font-size: large;
+    margin: 15px 0;
+  }
+  
+
+
+
+
+.footer{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    height: 120px; 
+    border: 1px solid #2f9721;  
+    background: linear-gradient(180deg, #058AFF 0%, rgba(57, 55, 206, 0.87) 97.91%);
+  
+}
+.items{
+    display: flex;
+}
+.start{
+    display: flex;
+    align-items: center;
+}
+.item{
+    color: #fff;
+}
+.seginup{
+    border: 0;
+    width: 131px;
+    height: 52px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.li{
+    margin-right: 30px;
+}
